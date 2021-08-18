@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  background-color: #9BC1C2;
+  background-color: #9bc1c2;
   background-image: url(../picture/header_background.jpg);
   height: 150px;
 }
@@ -34,7 +34,7 @@ nav a {
   text-decoration: none;
 }
 
-main{
+main {
   padding-left: 2em;
   padding-right: 2em;
 }
@@ -57,6 +57,7 @@ footer {
   height: 100%;
   width: 100%;
 }
+
 #email {
   color: blue;
   text-decoration: underline;
