@@ -69,7 +69,7 @@ nav ul li {
   text-decoration: none;
   list-style-type: none;
   padding: 1em;
-  border: 3px solid #333333;
+  border: 3px solid #333;
   margin: 0 0 1em 0;
   box-shadow: 2px 4px;
 }
@@ -84,10 +84,12 @@ nav ul li a:visited {
 
 nav ul li a:hover {
   color: #a26100;
-
 }
 
-header,nav,main,footer {
+header,
+nav,
+main,
+footer {
   display: block;
 }
 
