@@ -1,0 +1,107 @@
+body {
+  background-color: #3f2860;
+  color: #3f2860;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  background-color: #f5f5f5;
+  min-width: 1200px;
+  max-width: 1480px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 10px rgb(16, 151, 175);
+}
+
+header {
+  background-color: #9bc1c2;
+  background-image: url(../picture/header_background.jpg);
+  height: 150px;
+}
+
+header h1 {
+  padding-top: 50px;
+  padding-left: 2em;
+}
+
+nav {
+  text-align: center;
+  font: bold;
+  float: left;
+  width: 160px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+main {
+  padding: 1em 2em 0 2em;
+  margin: 0 0 0 170px;
+}
+
+.studio {
+  font: italic;
+}
+
+footer {
+  background-color: #9bc1c2;
+  font-size: 0.6em;
+  font-style: italic;
+  text-align: center;
+  padding: 1em;
+}
+
+#largure_picture {
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 100%;
+}
+
+#email {
+  color: blue;
+  text-decoration: underline;
+}
+
+nav ul li {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 1em;
+  border: 3px solid #333333;
+  margin: 0 0 1em 0;
+  box-shadow: 2px 4px;
+}
+
+nav ul li a:link {
+  color: #3f2860;
+}
+
+nav ul li a:visited {
+  color: #497777;
+}
+
+nav ul li a:hover {
+  color: #a26100;
+
+}
+
+header,nav,main,footer {
+  display: block;
+}
+
+main .image-content {
+  float: left;
+  width: 45%;
+}
+
+main .detail-1 {
+  float: right;
+  width: 49%;
+}
+
+main .detail-2 {
+  clear: left;
+  margin: 400px 0 0 0;
+}
