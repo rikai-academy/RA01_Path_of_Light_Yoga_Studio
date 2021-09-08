@@ -208,3 +208,21 @@ main .detail-2 {
     display: none;
   }
 }
+
+
+main .container .details form label {
+  float: left;
+  width: 100px;
+  text-align: right;
+  padding: 0 10px 0 0;
+}
+
+main .container .details form input,
+textarea {
+  display: block;
+  margin: 10px 0 0 0;
+}
+
+main .container .details form button {
+  margin: 10px 0 0 110px;
+}
